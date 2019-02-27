@@ -12,8 +12,8 @@ for nummer in range(0,i):
 	print (zahl)
 	if(frage==zahl):
 	
-		counter = counter + 1;
-		print("Gewonnen!Die zahl", frage,"kommt ",counter,"mal vor")
+		counter = counter + 1
+		print("Gewonnen!Die Zahl", frage,"kommt ",counter,"mal vor")
 
 	else:
 		print("verloren")
