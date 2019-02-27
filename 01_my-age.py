@@ -1,8 +1,8 @@
 input("What is your name?")
-name = input("What is your name?")
-input("How old are you?")
+#name = input("What is your name?")
+#input("How old are you?")
 alter = input("How old are you?")
 alter = int(alter)
 
 nextYear = alter + 1
-
+print("Next Year you will be", nextYear)
