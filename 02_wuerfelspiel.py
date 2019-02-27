@@ -1,5 +1,19 @@
-for zahl in 1,2,3,4,5,6:
-print(zahl)
+frage = input("Auf welche Zahl setzt du?")
 
-for zahl in 1,7:
-print(zahl)
+frage = int(frage)
+
+i = input("Wie oft soll gewürfelt werden")
+i = int(i)
+counter=0;
+for nummer in range(0,i):
+	import random
+	random.seed()
+	zahl=random.randint(1,6)
+	print (zahl)
+	if(frage==zahl):
+	
+		counter = counter + 1;
+		print("Gewonnen!Die zahl", frage,"kommt ",counter,"mal vor")
+
+	else:
+		print("verloren")
