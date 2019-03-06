@@ -11,3 +11,13 @@ print (len(saetze))
 print (saetze)
 
 
+for i in text:
+    words = i.split(" ")
+	
+	#num_words += len(words)
+       
+
+print(words)
+#woerter = text.split(" ")
+
+
