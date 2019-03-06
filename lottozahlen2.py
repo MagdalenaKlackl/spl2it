@@ -1,4 +1,5 @@
 import random
+random.seed()
 
 arr2 = []
 
@@ -7,7 +8,7 @@ for i in range(1,46):
 
 arr1 = []
 
-random.seed()
+
 
 for nummer in range(1,7):
 		arr1.append(random.randint(1,45))
